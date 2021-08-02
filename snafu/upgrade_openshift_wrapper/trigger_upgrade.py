@@ -19,7 +19,7 @@ from kubernetes import client, config
 from openshift.dynamic import DynamicClient
 
 logger = logging.getLogger("snafu")
-time_format = "%Y-%m-%dT%H:%M:%S%Z"
+time_format = "%Y-%m-%dT%H:%M:%SZ"
 
 
 class Trigger_upgrade:
